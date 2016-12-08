@@ -1,0 +1,140 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+html{
+	font-size: 13px;
+	margin: auto;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font: 16px/1.5 "Myriad Set Pro","Lucida Grande","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif,'Microsoft Yahei',Simsun;
+    color: #333;
+    background: #fff;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+#menu_bar li:first-child{
+	background: url(./img/1.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+#menu_bar li:nth-child(2){
+	background: url(./img/2.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+#menu_bar li:nth-child(3){
+	background: url(./img/3.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+#menu_bar li:nth-child(4){
+	background: url(./img/4.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+/*固定菜单栏*/
+#menu_bar{
+	width: 100%;
+	background-color: rgba(246,246,246,.95);
+	height: 5rem;
+	position: fixed;
+	z-index: 9999;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+}
+#menu_bar li{
+	width: 25%;
+	float: left;
+	height: 100%;
+	position: relative;
+}
+#menu_bar li span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 3rem;
+	color: #777;
+}
+
+/*购物车上的数量图标*/
+#mark{
+	width: 1.8rem;
+	height: 1.8rem;
+	background: #f40;
+	color: #fff;
+	position: absolute;
+	top: 15%;
+	right: 15%;
+	border-radius: 50%;
+	text-align: center;
+	
+}
+
+/*上方搜索部分*/
+header{
+	width: 100%;
+	height: 4.5rem;
+	background: #ffd600;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.address{
+	height: 4.5rem;
+	width: 60%;
+	text-align: center;
+	margin-left: 20%;
+	line-height: 4.5rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.address span:after{
+	content: '▼';
+}
+header>span{
+	background: url(./index/img/download.png) no-repeat; 
+	background-size: auto 2rem;
+	background-position: center 25%;
+	width: 3rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding-top: 2.6rem;
+	font-size: .6rem;
+	word-spacing: 2px;
+}
+
+
+.add{
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	background: #ff4300;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+.add div{
+	background: url(./index/img/product_operate-57bf1d7b.png) no-repeat;
+	background-position: 100%; 
+	width: 100%;
+	height: 100%;
+	background-size: 200%;
+	border-radius: 50%;
+	border: .1rem solid #E0E0E0;
+	box-sizing: content-box;
+}
+

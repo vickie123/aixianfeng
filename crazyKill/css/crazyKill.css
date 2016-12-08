@@ -1,0 +1,329 @@
+@charset "utf-8";
+header{
+	background: #f9fafd;
+}
+
+/*上方部分*/
+header{
+	display: flex;
+	justify-content: space-between;
+}
+.return,.loading{
+	width: 6rem;
+	height: 4.5rem;
+	display: inline-block;
+}
+.return{
+	background: url(../img/下载-2.png) no-repeat;
+	background-size: auto 2.5rem;
+	background-position: left center;
+	margin-left: .5rem;
+}
+.return a{
+	display: inline-block;
+	width: 6rem;
+	height: 4.5rem;
+}
+.loading{
+	background: url(../img/loading.png) no-repeat;
+	background-size: auto 2.5rem;
+	background-position: right center; 
+	margin-right: .5rem;
+}
+.crazy{
+	width: 60%;
+	height: 100%;
+	line-height: 4.5rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*广告大图*/
+#box{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	right: 0;
+}
+#crazybigPic{
+	background: url(../img/2016092318241233.jpg) no-repeat;
+	height: 14rem;
+	width: 100%;
+	background-size: 100% 100%;
+}
+
+/*秒杀倒计时*/
+#timing{
+	width: 100%;
+	height: 7rem;
+	border-bottom: .1rem solid #fff;
+}
+#timing ul{
+	width: 100%;
+	height: 100%;
+}
+#timing ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: #272c2a;
+	color: #fff;
+	border-right: .1rem solid #fff;
+	box-sizing: border-box;
+	text-align: center;
+}
+#timing ul li:last-child{
+	border: none;
+}
+.time{
+	margin-top: .5rem;
+	font-size: 1.5rem;
+}
+.status{
+	font-size: 1.3rem;
+}
+.icon{
+	background: url(../img/下载.png) no-repeat;
+	background-position: 20%;
+	background-size: auto 1.3rem;
+	height: 1.5rem;
+}
+
+/*倒计时结束*/
+#countDown{
+	width: 100%;
+	height: 3.1rem;
+	background: #f2f2f2;
+	position: relative;
+}
+#timeDown{
+	width: 10rem;
+	height: 100%;
+	background: #fdd000;
+	display: inline-block;
+}
+#timeDown::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10rem;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 10px solid #FDD000;
+	border-bottom: 20px solid transparent;
+}
+#timeDown p{
+	margin-left: 1.5rem;
+}
+#jishi{
+	font-size: .8rem;
+}
+#rule{
+	height: 2.1rem;
+	line-height: 2.15rem;
+	color: #fff;
+	width: 9rem;
+	background: #272c2a;
+	position: absolute;
+	right: 1rem;
+	top: .5rem;
+	border-radius: 1rem;
+	text-align: center;
+	font-size: 1.1rem;
+}
+#seckill{
+	width: 100%;
+}
+.seckill_div{
+	height: 15rem;
+	width: 100%;
+	border-bottom: .5rem solid #EFEFEF;
+}
+.seckill_div>div{
+	float: left;
+}
+.killPic{
+	width: 45%;
+	height: 100%;
+	border-bottom: .1rem dashed #f2f2f2;
+	border-right: .1rem solid #eeeeee;
+	box-sizing: border-box;
+}
+.kill{
+	height: 100%;
+	width: 55%;
+	position: relative;
+	border-bottom: .1rem dashed #f2f2f2;
+	box-sizing: border-box;
+}
+.kill p{
+	line-height: 2.5rem;
+	margin-left: 1.5rem;
+}
+.timu{
+	margin-top: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.money{
+	color: #979697;
+}
+.money span{
+	color: #ff602c;
+}
+.money em{
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.kill>div{
+	width: 11rem;
+	height: 3rem;
+	color: #fff;
+	border-radius: 2rem;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 1.4rem;
+	position: absolute;
+	left: 1rem;
+	bottom: 2rem;
+}
+.hotSet{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	background:#efefef url(../img/下载-3.png) no-repeat;
+	background-position: center bottom;
+	background-size: contain;
+	color: #333;
+	font-size: 1.4rem;
+}
+.hotSet::before{
+	width: 0;
+	height: 0;
+	border-left: .5rem solid #FDD000;
+	border-top: .2rem solid #fdd000;
+	content: '';
+	background: #fdd000;
+	margin-right: .5rem;
+}
+#hotFood{
+	width: 100%;
+	background: #efefef;
+}
+#hotFood ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-grow: 2;
+	padding-bottom: 2.5rem;
+}
+#hotFood ul li{
+	width: 46%;
+	background: #fff;
+	margin-top: 1rem;
+}
+#hotFood ul li:nth-child(2n-1){
+	margin-left: .8rem;
+}
+#hotFood ul li:nth-child(2n){
+	margin-right: .8rem;
+}
+.hotFoodPics{
+	height: 15rem;
+	position: relative;
+	overflow: hidden;
+}
+.zeng{
+	position: absolute;
+	top: 8px;
+	left: -33px;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	height: 14px;
+	width: 100px;
+	line-height: 14px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	background: #e60027;
+}
+.message{
+	width: 100%;
+	border-top: .1rem dashed #e7e7e7;
+	box-sizing: border-box;
+	font-size: 1.15rem;
+	position: relative;
+}
+.message p{
+	padding-left: .5rem;
+	padding-top: .2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.foodPrices{
+	color: #fc1400;
+}
+.foodPrices em{
+	color: #929292;
+	text-decoration: line-through;
+	margin-left: .3rem;
+}
+.message>div{
+	width: 2.3rem;
+	height: 2.3rem;
+	line-height: 2.3rem;
+	border-radius: 1.5rem;
+	display: inline-block;
+	border: .1rem solid #999999;
+	color: #FC1400;
+	font-size: 1.8rem;
+	text-align: center;
+	position: absolute;
+	bottom: .5rem;
+	right: .5rem;
+}
+
+/*活动规则部分*/
+#ruleDiv{
+	width: 100%;
+	background: #efefef;
+}
+#ruleDiv ul{
+	width: 75%;
+	margin: 0 auto;
+	padding: 1.5rem 0 3rem 0;
+	font-size: 1rem;
+}
+
+/*下方购物车*/
+#tu_car{
+	background:#ffd600 url(../img/下载-1.png) no-repeat;
+	position: fixed;
+	z-index: 9;
+	height: 5.4rem;
+	width: 5.4rem;
+	border: .3rem solid #FFFFFF;
+	right: .6rem;
+	bottom: .7rem;
+	border-radius: 50%;
+	background-position: center center;
+	background-size: 80%;
+}
+#mark{
+	top: 0;
+	right: 0;
+}
+#tu_car a{
+	width: 5.4rem;
+	height: 5.4rem;
+	display: inline-block;
+}

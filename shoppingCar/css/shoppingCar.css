@@ -1,0 +1,241 @@
+@charset "utf-8";
+/*html{
+	background: #EFEFEF;
+}*/
+#menu_bar li:nth-child(3){
+	background: url(../../img/3-1.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+#carHeader{
+	background: #f9fafd;
+	border-bottom: .1rem solid #E0E0E0;
+}
+
+/*收货地址*/
+#address{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 4.5rem;
+	background: #fff;
+	margin-bottom: 5rem;
+}
+#site{
+	background: url(../img/下载-1.png),url(../img/下载-2.png);
+	line-height: 1.4rem;
+	background-repeat: repeat-x;
+    background-position: left top,left bottom;
+	background-size: auto .3rem;
+	font-weight: 400;
+	position: relative;
+	border-bottom: 1rem solid #EFEFEF;
+}
+.site_left{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	padding: .7rem 1rem .7rem 1.5rem;
+}
+.site_right{
+	width: 60%;
+	display: inline-block;
+	padding: .7rem 0;
+}
+#site div:last-child{
+	background: url(../img/下载.png) no-repeat;
+	background-position: right center;
+	padding-right: 2.5rem;
+	background-size: auto 1rem;
+}
+#yuding{
+	background: url(../img/下载.png) no-repeat;
+	background-position: right center;
+	background-size: auto 1rem;
+	position: absolute;
+	top: .7rem;
+	right: 0;
+	padding-right:2.5rem;
+}
+#site div:last-child{
+	position: absolute;
+	right: 0;
+	top: 35%;
+}
+
+/*闪送超市*/
+#inventory{
+	width: 100%;
+	position: relative;
+}
+#inventory>div:first-child{
+	border-bottom: .1rem solid #E0E0E0;
+	position: relative;
+}
+#market b{
+	background: #FFD600;
+	height: 1.2rem;
+	width: .4rem;
+	display: inline-block;
+	border-radius: .2rem;
+	margin-right: .5rem;
+	vertical-align: -.1rem;
+}
+#market{
+	height: 3rem;
+	font-size: 1.2rem;
+	padding-left: 1.4rem;
+	line-height: 2rem;
+	color: #999999;
+	padding-top: .5rem;
+}
+#prefecture{
+	border: .1rem solid #FF3800;
+	color: red;
+	padding: .3rem 1rem;
+	border-radius: 1.5rem;
+	position: absolute;
+	top: .5rem;
+	right: 1.4rem;
+}
+#freight{
+	padding-left: 1.4rem;
+	font-size: 1.1rem;
+	color: #999999;
+	line-height: 2rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#inventory>div:nth-child(2){
+	position: relative;
+	height: 5rem;
+	border-bottom: .1rem solid #E0E0E0;
+	line-height: 3.6rem;
+}
+#inventory>div:nth-child(2) span:nth-child(2){
+	color: #E64F1A;
+	width: 48%;
+	display: inline-block;
+}
+#inventory>div:nth-child(3){
+	height: 5rem;
+	line-height: 3.6rem;
+	border-bottom: .1rem solid #E0E0E0;
+}
+#inventory>div input{
+	height: 3.2rem;
+	width: 60%;
+	border: .1rem solid #cecece;
+	border-radius: .5rem;
+	font-size: 1.2rem;
+	padding-left: .5rem;
+	outline: none;
+	font-family: "微软雅黑";
+}
+::-moz-placeholder{
+	color: #a9a9a9;
+}
+
+/*购买商品列表*/
+#footList{
+	width: 100%;
+}
+#footList li{
+	position: relative;
+	height: 7.5rem;
+	width: 100%;
+	border-bottom: .1rem solid #E0E0E0;
+}
+#footList li>div{
+	float: left;
+}
+.select{
+	width: 16%;
+	height: 100%;
+	line-height: 7.5rem;
+	text-align: center;
+}
+.select img,.all img{
+	vertical-align: middle;
+	width: 1.8rem;
+	height: 1.8rem;
+}
+.all img{
+	margin-right: .5rem;
+}
+.all{
+	line-height: 5rem;
+	width: 25%;
+	text-align: center;
+	height: 100%;
+}
+.foot_pics{
+	background: url(../img/20160416104145_631033.jpg) no-repeat;
+	background-size: auto 100% ;
+	width: 5rem;
+	height: 5rem;
+	margin-top: 1rem;
+}
+.foot_title,.foot_price{
+	line-height: 3.5rem;
+	width: 60%;
+}
+.tu{
+	width: 2.6rem;
+	height: 2.6rem;
+	display: inline-block;
+	background: #FF4300 url(../img/product_operate-57bf1d7b.png) no-repeat;
+	border-radius: 50%;
+	background-origin: border-box;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffbe89;
+	background-size: 200%;
+	margin-top: 1.2rem;
+}
+.subtract{
+	background-position: 0;
+}
+.plus{
+	background-position: 100%;
+}
+.count{
+	width: 10rem;
+	height: 5rem;
+	line-height: 5rem;
+	position: absolute;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+}
+.number{
+	height: 5rem;
+	line-height: 5rem;
+	font-size: 1.4rem;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 .5rem;
+}
+#set{
+	height: 5rem;
+	width: 100%;
+	line-height: 5rem;
+}
+#set>div{
+	float: left;
+	font-size: 1.4rem;
+}
+.money{
+	font-style: normal;
+}
+#confirm{
+	width: 10rem;
+	height: 100%;
+	line-height: 5rem;
+	background: gray;
+	text-align: center;
+}
+#set>div:last-child{
+	float: right;
+}

@@ -1,0 +1,158 @@
+@charset "utf-8";
+html{
+	background: #fff;
+}
+#menu_bar li:nth-child(2){
+	background: url(../../img/2-1.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+
+/*侧边栏*/
+#box{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+#box>div{
+	float: left;
+}
+#sidebar{
+	width: 23.75%;
+	overflow: scroll;
+	height: 612.5px;
+	position: fixed;
+	bottom: 5rem;
+	z-index: 999;
+}
+#sidebar ul{
+	text-align: center;
+	background: #f8f8f8;
+}
+#sidebar ul li{
+	font-size: 1.2rem;
+	height: 4rem;
+	line-height: 4rem;
+	border-top: .1rem solid #E0E0E0;
+	position: relative;	
+	color: #6d6d6d;
+}
+.sign{
+	height: 90%;
+	width: 5px;
+	background: #FFD600;
+	position: absolute;
+	left: 0;
+	top: 5%;
+}
+#sidebar ul li:nth-child(2){
+	background: url(../img/20160815105444_045320.jpg) no-repeat;
+	background-size: auto 2.8rem;
+	background-position: right top;
+}
+
+/*分类排序*/
+#content{
+	width: 76.25%;
+	height: 100%;
+	margin-left: 23.75%;
+}
+#topList{
+	width: 75%;
+	float: right;
+	height: 4rem;
+	border-bottom: .1rem solid #E0E0E0;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	right: 0;
+	z-index: 999;
+	background: #FFFFFF;
+}
+#topList>div{
+	float: left;
+}
+.top_list{
+	width: 44.9%;
+	height: 100%;
+	text-align: center;
+	line-height: 4rem;
+	background: url(../img/下载.png) no-repeat;
+	background-position: 95% center;
+	background-size: auto .5rem; 
+	color: #6D6D6D;
+}
+#between{
+	width: 1px;
+	height: 50%;
+	background: #E0E0E0;
+	margin-top: 1rem;
+}
+
+/*菜单清单*/
+#bigList{
+	margin-top: 4rem;
+	width: 100%;
+	overflow: hidden;
+}
+#bigList ul{
+	width: 98%;
+	float: right;
+}
+#bigList ul li{
+	border-bottom: .1rem solid #E0E0E0;
+	height: 9rem;
+	position: relative;
+	width: 100%;
+}
+.imgDiv{
+	width: 35%;
+	height: 100%;
+	display: inline-block;
+}
+#bigList ul li>div{
+	float: left;
+}
+.xinxi{
+	height: 80%;
+	padding-top: 5%;
+	float: right;
+	width: 60%;
+}
+.topic{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.selec span{
+	font-size: 1rem;
+	padding: .1rem .3rem;
+	border-radius: .4rem;
+	border: 1px solid red;
+	display: inline-block;
+	line-height: 1rem;
+	vertical-align: .1rem;
+}
+.choiceness{
+	color: red;
+}
+.present{
+	margin-left: .5rem;
+	background: red;
+	color: #FFFFFF;
+}
+.weight{
+	color: #999999;
+}
+.price{
+	color: #ff3800;
+	font-size: 1.2rem;
+}
+.price em{
+	font-style: normal;
+	text-decoration: line-through;
+	color: #999;
+	margin-left: .2rem;
+}

@@ -1,0 +1,308 @@
+@charset "utf-8";
+html{
+	background: #fff;
+}
+#menu_bar li:first-child{
+	background: url(../../img/1-1.png) no-repeat;
+	background-position: center 25%; 
+	background-size: auto 2rem;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+/*内容部分*/
+.bgPic img{
+	width: 100%;
+	height: 100%;
+}
+#indexBox{
+	position: absolute;
+	top: 4.5rem;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin-bottom: 5rem;
+	overflow: hidden;
+}
+/*轮播图*/
+.swiper-container {
+    width: 100%;
+    height: 12rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-pagination-bullet{
+	background: #FFFFFF;
+	opacity: 1;
+	box-shadow: 0 1px 0 gray inset;
+}
+.swiper-pagination-bullet-active{
+	background: #ffd600;
+	opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 3px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:last-child{
+	margin-right: 10px;
+}
+
+/*疯狂秒杀*/
+#subheading{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1rem solid #efefef;
+	border-bottom: 1rem solid #efefef;
+}
+#subheading li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+#subheading li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 3% 0;
+}
+#subheading li img{
+	width: 100%;
+	height: 100%;
+}
+
+/*骑士酸牛奶栏*/
+#milk{
+	width: 100%;
+	height: 14rem;
+	border-bottom: 1rem solid #EFEFEF;
+}
+#milk li{
+	width: 33.1%;
+	float: left;
+	height: 100%;
+}
+#milk li:nth-child(1){
+	background: url(../img/cms_113619_1477533271.jpg) no-repeat;
+	background-size: 100%;
+	border-right: .1rem solid #e0e0e0;
+}
+#milk li:nth-child(2){
+	background: url(../img/cms_116950_1479433541.jpg) no-repeat;
+	background-size: 100%;
+	border-right: .1rem solid #e0e0e0;
+}
+#milk li:nth-child(3){
+	background: url(../img/2016112713493626.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+}
+
+/*便利店栏*/
+#storeDiv{
+	width: 100%;
+	border-bottom: 1rem solid #EFEFEF;
+}
+#store{
+	width: 100%;
+	height: 4.8rem;
+}
+#store li{
+	width: 100%;
+	height: 100%;
+}
+#store li{
+	background: url(../img/201609232046093.png@90Q.png) no-repeat;
+	background-size: 100%;
+}
+#plate{
+	margin: 0 .5rem;
+	height: 6rem;
+	margin-bottom: .5rem;
+}
+#plate li{
+	width: 50%;
+	height: 100%;
+	border: .5rem solid transparent;
+	float: left;
+	box-sizing: border-box;
+}
+#plate li:nth-child(1){
+	background: url(../img/2016092417285271.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+}
+#plate li:nth-child(2){
+	background: url(../img/2016092417282359.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+}
+#storeList{
+	width: 100%;
+	height: 8.76rem;
+}
+#storeList li{
+	width: 25%;
+	height: 100%;
+	float: left;
+	line-height: 14rem;
+	text-align: center;
+}
+#storeList li:nth-child(1){
+	background: url(../img/2016092415283782.png@90Q.png) no-repeat;
+	background-position: center 25%; 
+	background-size: 100%;
+}
+#storeList li:nth-child(2){
+	background: url(../img/2016092415274759.png@90Q.png) no-repeat;
+	background-position: center 25%; 
+	background-size: 100%;
+}
+#storeList li:nth-child(3){
+	background: url(../img/2016092415272487.png@90Q.png) no-repeat;
+	background-position: center 25%; 
+	background-size: 100%;
+}
+#storeList li:nth-child(4){
+	background: url(../img/2016092411075920.png@90Q.png) no-repeat;
+	background-position: center 25%; 
+	background-size: 100%;
+}
+#list{
+	width: 100%;
+	height: 13rem;
+}
+#list li{
+	height: 50%;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+#list li:nth-child(1){
+	background: url(../img/2016101415253279.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+	border-right: .1rem solid #E0E0E0;
+	border-top: .1rem solid #E0E0E0;
+}
+#list li:nth-child(2){
+	background: url(../img/2016102010483026.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+	border-top: .1rem solid #E0E0E0;
+}
+#list li:nth-child(3){
+	background: url(../img/201609241914489.jpg@90Q.jpg) no-repeat;
+	background-size: 100%;
+	border-right: .1rem solid #E0E0E0;
+	border-top: .1rem solid #E0E0E0;
+}
+#list li:nth-child(4){
+	background: url(../img/2016092417350939.png@90Q.png) no-repeat;
+	background-size: 100%;
+	border-top: .1rem solid #E0E0E0;
+}
+
+/*菜单栏*/
+#menus{
+	height: 50rem;
+}
+.title{
+	height: 4rem;
+	font-size: 1.4rem;
+	line-height: 4rem;
+	padding: 0 1rem;
+}
+.title span:nth-child(1){
+	color: #f38631;
+	border-left:.8rem solid #f38631;
+	font-weight: 700;
+	padding-left: .5rem;
+}
+.title span:nth-child(2){
+	float: right;
+	font-family: "宋体";
+	color: #999;
+}
+.title b{
+	margin-left: .5rem;
+}
+#bigPic{
+	height: 7.7rem;
+	margin: 0 1rem .5rem 1rem;
+	background: url(../img/201611221806316.jpg@90Q.jpg) no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+}
+.food{
+	width: 100%;
+	height: 18rem;
+	padding-bottom: .5rem;
+}
+.food li{
+	width: 33.1%;
+	padding: .5rem 0;
+	float: left;
+	position: relative;
+}
+.food li:nth-child(1)>div,.food li:nth-child(2)>div{
+	border-right: .1rem solid #E0E0E0;
+}
+.foodList{
+	padding: 0 .5rem;
+}
+.bgPic{
+	width: 9.35rem;
+	height: 9.35rem;
+	background: url(../img/0000094217_08330.jpg) no-repeat;
+	background-size: 100%;
+}
+.message div{
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+.message div:nth-child(1){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.message div:nth-child(2) span{
+	font-size: 1rem;
+	border: .1rem solid #ff0000;
+	border-radius: .5rem;
+	padding: .1rem .2rem;
+	color: #ff0000;
+}
+.message div:nth-child(3){
+	color: #ababab;
+}
+.message em{
+	color: #ABABAB;
+	text-decoration: line-through;
+}
+.message div:last-child{
+	color: #FF0000;
+}
+#menus>li:last-child{
+	margin-bottom: 5rem;
+}
+#menus li{
+	border-bottom: 1rem solid #E0E0E0;
+}
